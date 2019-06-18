@@ -6,48 +6,23 @@ use warnings;
 
 =head1 NAME
 
-App::uricolor - The great new App::uricolor!
+App::uricolor - Colorize URIs with ANSI colors.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.12
 
 =cut
 
-our $VERSION = '0.01';
-
+our $VERSION = '0.12';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
+Reads from STDIN, writes to STDOUT.
 
-Perhaps a little code snippet.
-
-    use App::uricolor;
-
-    my $foo = App::uricolor->new();
-    ...
-
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
+Current limitations :
+- hardcoded style (underline blue)
+- no --schemeless option (yet)
 
 =head1 AUTHOR
 
@@ -58,9 +33,6 @@ jul, C<< <kal247 at gmail.com> >>
 Please report any bugs or feature requests to C<bug-app-uricolor at rt.cpan.org>, or through
 the web interface at L<https://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-uricolor>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
-
-
-
 
 =head1 SUPPORT
 
@@ -91,10 +63,6 @@ L<https://metacpan.org/release/App-uricolor>
 
 =back
 
-
-=head1 ACKNOWLEDGEMENTS
-
-
 =head1 LICENSE AND COPYRIGHT
 
 This software is Copyright (c) 2019 by jul.
@@ -102,7 +70,6 @@ This software is Copyright (c) 2019 by jul.
 This is free software, licensed under:
 
   The GNU General Public License, Version 3, June 2007
-
 
 =cut
 
